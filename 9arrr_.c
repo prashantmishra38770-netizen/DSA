@@ -18,17 +18,17 @@ int main() {
   {
       printf("array elemnt are=%d",arr[i]);
   } 
-
   int max=arr[0];
+  int position=0;
   for(i=0;i<n;i++)
   {
-    if (arr[i]>max)
-    if (arr[i]<max)
+    if(arr[i]>max)
     {
         max=arr[i];
-
+        position=i;
     }
   }
-    printf("\nmin element of array is:%d",max);
- 
+  printf("\nmax element of array is:%d",max);
+  printf("\nposition of max element is:%d",position);
+
 }
