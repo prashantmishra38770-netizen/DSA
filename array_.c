@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 int main() {
     int i;
     int n;
@@ -8,7 +8,7 @@ int main() {
     printf("enter array elements:");
     for (i=0;i<n;i++)
     {
-        scanf("%d",&arr[i]);
+       #include <stdio.h> scanf("%d",&arr[i]);
     }
     printf("\narray elements are:");
     for (i=0;i<n;i++)
