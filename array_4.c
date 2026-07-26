@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main() {
+    
+  int i;
+  int n;
+  printf("enter array size:");
+  scanf("%d",&n);
+  int arr[n];
+  
+  printf("enter array elemnt are:");
+  for (i=0;i<n;i++)
+  {
+      scanf("%d",&arr[i]);
+  }
+  printf("array element are:");
+  for (i=0;i<n;i++)
+  {
+      printf("array elemnt are=%d",arr[i]);
+  }
+  printf("/n array element in reverse order are:");
+  for (i=n-1;i>=0;i--)
+  {
+    printf("%d",arr[i]);
+  }
+  return 0;
+}
