@@ -14,16 +14,28 @@ int main() {
         printf("%d ",arr[i]);
     }
     int temp;
-    for(i=0;i<n/2;i++)
-    {
-        temp=arr[i];
-        arr[i]=arr[n-1-i];
-        arr[n-1-i]=temp;
-    }
-    printf("array elements after swapping: ");
+    int index=0;
     for(i=0;i<n;i++)
     {
-        printf("%d ",arr[i]);
+        if(arr[i]==3)
+        {
+            temp=arr[i];
+            arr[i]=arr[index];
+            arr[index]=temp;
+            index++;
+        
+        }
     }
+
+
+printf("Modified array: ");
+    for(i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    
+
     return 0;
+
+    
 }
+
