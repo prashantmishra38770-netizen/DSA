@@ -20,16 +20,16 @@ void displaystudent(struct student s ){
 }
 int main(){
     struct student s1,s2,s3;
-    strcpy (s1.name,"PRASHANT");
-    s1.rollno=55;
-    s1.percentage=85.5;
-    s1.grade='A';
-    s1.section='C';
-    printf("Student 1:\n");
+    //strcpy (s1.name,"PRASHANT");
+    //s1.rollno=55;
+    //s1.percentage=85.5;
+    //s1.grade='A';
+    //s1.section='C';
+    //printf("Student 1:\n");
     displaystudent(s1);
-    strcpy(s2.name,"pranav");
-    s2.rollno=53;
-    s2.percentage=75.5;
+    //strcpy(s2.name,"pranav");
+   // s2.rollno=53;
+    //s2.percentage=75.5;
     s2.grade='B';
     s2.section='A';
     printf("\nStudent 2:\n");
