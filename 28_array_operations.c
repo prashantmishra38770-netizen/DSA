@@ -60,7 +60,7 @@ void display(){
         printf("first create the array then update the elements:");
     }
     }
-    void insert(int arr[],int n){
+    void insert(){
         int pos;
         printf("Enter the position to insert:");
         scanf("%d",&pos);
@@ -100,7 +100,7 @@ int main(){
             update();
             break;
             case 4:
-            insert(arr, n);
+            insert();
             break;
         
             
