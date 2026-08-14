@@ -32,9 +32,16 @@ void setstudent(struct student *s, char name[20], int rollno, float percentage, 
 }
 void main(){
     struct student s1,s2,s3;
-    setstudent(&s1,"PRASHANT",55,85.5,'A','C');
-    setstudent(&s2,"pranav",53,75.5,'B','A');
-    setstudent(&s3,"suresh",54,90.0,'A','B');
+    printf("Enter name for student 1: ");
+    scanf("%s", s1.name);
+    printf("Enter roll number for student 1: ");
+    scanf("%d", &s1.rollno);
+    printf("Enter percentage for student 1: ");
+    scanf("%f", &s1.percentage);
+    printf("Enter grade for student 1: ");
+    scanf(" %c", &s1.grade);
+    printf("Enter section for student 1: ");
+    scanf(" %c", &s1.section);
 
     displaystudent(s1);
     
@@ -43,3 +50,4 @@ void main(){
     
 
 }
+
