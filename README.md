@@ -5,6 +5,7 @@ This repository contains my Data Structures and Algorithms (DSA) programs writte
 ## Topics Covered
 
 - Arrays
+-Pointer
 - Searching
 - Sorting
 - Functions
