@@ -8,4 +8,13 @@ int main(){
         printf("%d" ,*ptr);
         ptr++;
     }
+    int sum=0;
+    ptr=arr;  
+    for(i=0;i<5;i++)
+    {
+        sum=sum+*ptr;
+        ptr++;
+    }
+    printf("Sum: %d", sum); 
+    
 }
